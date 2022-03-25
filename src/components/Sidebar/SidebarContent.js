@@ -30,7 +30,7 @@ function SidebarContent() {
               >
                 <Route path={route.path} exact={route.exact}>
                   <span
-                    className="absolute inset-y-0 left-0 w-1 bg-purple-600 rounded-tr-lg rounded-br-lg"
+                    className="absolute inset-y-0 left-0 w-1 bg-blue-600 rounded-tr-lg rounded-br-lg"
                     aria-hidden="true"
                   ></span>
                 </Route>
@@ -42,10 +42,10 @@ function SidebarContent() {
         )}
       </ul>
       <div className="px-6 my-6">
-        <Button>
-          Create account
+        <Button className=' bg-blue-500'>
+          log out
           <span className="ml-2" aria-hidden="true">
-            +
+            -
           </span>
         </Button>
       </div>
