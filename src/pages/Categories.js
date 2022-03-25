@@ -8,14 +8,14 @@ import { Card, CardBody } from '@windmill/react-ui'
 import { CartIcon, ChatIcon, MoneyIcon, PeopleIcon } from '../icons'
 import RoundIcon from '../components/RoundIcon'
 
-function Cards() {
+function Categories() {
   return (
     <>
-      <PageTitle>Cards</PageTitle>
+      <PageTitle>Categories</PageTitle>
 
-      <CTA />
+     
 
-      <SectionTitle>Big section cards</SectionTitle>
+      {/* <SectionTitle>Big section cards</SectionTitle>
 
       <Card className="mb-8 shadow-md">
         <CardBody>
@@ -88,10 +88,10 @@ function Cards() {
               ratione! Ratione, nihil dolorum.
             </p>
           </CardBody>
-        </Card>
-      </div>
+        </Card> */}
+      {/* </div> */}
     </>
   )
 }
 
-export default Cards
+export default Categories

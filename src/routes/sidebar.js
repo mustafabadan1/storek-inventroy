@@ -12,62 +12,36 @@ const routes = [
     name: 'Dashboard', // name that appear in Sidebar
   },
   {
-    path: '/app/forms',
+    path: '/app/Inventroy',
     icon: 'FormsIcon',
     name: 'Inventroy',
   },
   {
-    path: '/app/cards',
+    path: '/app/Categories',
     icon: 'CardsIcon',
     name: 'Categories',
   },
   {
     path: '/app/charts',
     icon: 'ChartsIcon',
+    name: 'Charts',
+  },
+  {
+    path: '/app/messages',
+    icon: 'ButtonsIcon',
     name: 'Messages',
   },
   {
-    path: '/app/buttons',
-    icon: 'ButtonsIcon',
-    name: 'Notification',
-  },
-  {
-    path: '/app/modals',
+    path: '/app/user',
     icon: 'ModalsIcon',
-    name: 'Users',
+    name: 'User',
   },
   {
     path: '/app/tables',
     icon: 'TablesIcon',
-    name: 'User',
+    name: 'User ctivites',
   },
-  {
-    icon: 'PagesIcon',
-    name: 'User activites',
-    routes: [
-      // submenu
-      // {
-      //   path: '/login',
-      //   name: 'Login',
-      // },
-      // {
-      //   path: '/create-account',
-      //   name: 'Create account',
-      // },
-      // {
-      //   path: '/forgot-password',
-      //   name: 'Forgot password',
-      // },
-      // {
-      //   path: '/app/404',
-      //   name: '404',
-      // },
-      // {
-      //   path: '/app/blank',
-      //   name: 'Blank',
-      // },
-    ],
-  },
+  
 ]
 
 export default routes

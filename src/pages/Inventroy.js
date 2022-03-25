@@ -7,7 +7,7 @@ import { Input, HelperText, Label, Select, Textarea } from '@windmill/react-ui'
 
 import { MailIcon } from '../icons'
 
-function Forms() {
+function Inventroy() {
   return (
     <>
       <PageTitle>Inventroy</PageTitle>
@@ -21,4 +21,4 @@ function Forms() {
   )
 }
 
-export default Forms
+export default Inventroy
