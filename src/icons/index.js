@@ -21,6 +21,9 @@ import { ReactComponent as SearchIcon } from './search.svg'
 import { ReactComponent as MoonIcon } from './moon.svg'
 import { ReactComponent as SunIcon } from './sun.svg'
 import { ReactComponent as BellIcon } from './bell.svg'
+import { ReactComponent as BellbIcon } from './bellb.svg'
+import { ReactComponent as UserIcon } from './user.svg'
+import { ReactComponent as MessageIcon } from './message.svg'
 import { ReactComponent as MenuIcon } from './menu.svg'
 import { ReactComponent as DropdownIcon } from './dropdown.svg'
 import { ReactComponent as OutlinePersonIcon } from './outlinePerson.svg'
@@ -38,6 +41,7 @@ export {
   TablesIcon,
   HeartIcon,
   EditIcon,
+  MessageIcon,
   TrashIcon,
   ForbiddenIcon,
   GithubIcon,
@@ -51,6 +55,8 @@ export {
   MoonIcon,
   SunIcon,
   BellIcon,
+  BellbIcon,
+  UserIcon,
   MenuIcon,
   DropdownIcon,
   OutlinePersonIcon,

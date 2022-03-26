@@ -1,4 +1,6 @@
 import React, { useContext, useState } from 'react'
+import { Link } from 'react-router-dom'
+
 import { SidebarContext } from '../context/SidebarContext'
 import {
   SearchIcon,
@@ -28,11 +30,11 @@ function Header() {
   }
 
   return (
-    <header className="z-40 py-4 bg-white shadow-bottom dark:bg-gray-800">
-      <div className="container flex items-center justify-between h-full px-6 mx-auto text-purple-600 dark:text-purple-300">
+    <header className="z-40 py-5 bg-white shadow-bottom dark:bg-gray-800">
+      <div className="container flex items-center justify-between h-full px-6 mx-auto text-blue-600 dark:text-blue-200">
         {/* <!-- Mobile hamburger --> */}
         <button
-          className="p-1 mr-5 -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-purple"
+          className="p-1 mr-5 -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-blue"
           onClick={toggleSidebar}
           aria-label="Menu"
         >
@@ -40,7 +42,7 @@ function Header() {
         </button>
         {/* <!-- Search input --> */}
         <div className="flex justify-center flex-1 lg:mr-32">
-          <div className="relative w-full max-w-xl mr-6 focus-within:text-purple-500">
+          <div className="relative w-full max-w-xl mr-6 focus-within:text-blue-500">
             <div className="absolute inset-y-0 flex items-center pl-2">
               <SearchIcon className="w-4 h-4" aria-hidden="true" />
             </div>
@@ -51,11 +53,11 @@ function Header() {
             />
           </div>
         </div>
-        <ul className="flex items-center flex-shrink-0 space-x-6">
+        <ul className="flex items-center flex-shrink-0 space-x-6 mr-16">
           {/* <!-- Theme toggler --> */}
           <li className="flex">
             <button
-              className="rounded-md focus:outline-none focus:shadow-outline-purple"
+              className="rounded-md focus:outline-none focus:shadow-outline-blue"
               onClick={toggleMode}
               aria-label="Toggle color mode"
             >
@@ -69,7 +71,7 @@ function Header() {
           {/* <!-- Notifications menu --> */}
           <li className="relative">
             <button
-              className="relative align-middle rounded-md focus:outline-none focus:shadow-outline-purple"
+              className="relative align-middle rounded-md focus:outline-none focus:shadow-outline-blue"
               onClick={handleNotificationsClick}
               aria-label="Notifications"
               aria-haspopup="true"
@@ -103,14 +105,14 @@ function Header() {
           {/* <!-- Profile menu --> */}
           <li className="relative">
             <button
-              className="rounded-full focus:shadow-outline-purple focus:outline-none"
+              className="rounded-full focus:shadow-outline-blue focus:outline-none"
               onClick={handleProfileClick}
               aria-label="Account"
               aria-haspopup="true"
             >
               <Avatar
                 className="align-middle"
-                src="https://images.unsplash.com/photo-1502378735452-bc7d86632805?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=aa3a807e1bbdfd4364d1f449eaa96d82"
+                src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80https://images.unsplash.com/photo-1502378735452-bc7d86632805?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=aa3a807e1bbdfd4364d1f449eaa96d82"
                 alt=""
                 aria-hidden="true"
               />
@@ -122,7 +124,13 @@ function Header() {
             >
               <DropdownItem tag="a" href="#">
                 <OutlinePersonIcon className="w-4 h-4 mr-3" aria-hidden="true" />
-                <span>Profile</span>
+                <button>
+                    <Link to='/app/user'>
+                 <span>Profile</span>
+                </Link>
+                </button>
+              
+               
               </DropdownItem>
               <DropdownItem tag="a" href="#">
                 <OutlineCogIcon className="w-4 h-4 mr-3" aria-hidden="true" />
