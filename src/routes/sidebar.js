@@ -29,7 +29,7 @@ const routes = [
  
   {
     path: '/app/user',
-    icon: 'ModalsIcon',
+    icon: 'UserIcon',
     name: 'User',
   },
   {
@@ -39,13 +39,13 @@ const routes = [
   },
    {
     path: '/app/notification',
-    icon: 'ButtonsIcon',
+    icon: 'BellbIcon',
     name: 'Notification',
   },
 
   {
     path: '/app/messages',
-    icon: 'ButtonsIcon',
+    icon: 'MessageIcon',
     name: 'Messages',
   },
 
