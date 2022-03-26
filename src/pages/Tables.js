@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import PageTitle from '../components/Typography/PageTitle'
 import SectionTitle from '../components/Typography/SectionTitle'
-import CTA from '../components/CTA'
+// import CTA from '../components/CTA'
 import {
   Table,
   TableHeader,
@@ -69,7 +69,7 @@ function Tables() {
     <>
       <PageTitle>Tables</PageTitle>
 
-      <CTA />
+    
 
       <SectionTitle>Simple table</SectionTitle>
       <TableContainer className="mb-8">
@@ -87,7 +87,7 @@ function Tables() {
               <TableRow key={i}>
                 <TableCell>
                   <div className="flex items-center text-sm">
-                    <Avatar className="hidden mr-3 md:block" src={user.avatar} alt="User avatar" />
+                    {/* <Avatar className="hidden mr-3 md:block" src={user.avatar} alt="User avatar" /> */}
                     <div>
                       <p className="font-semibold">{user.name}</p>
                       <p className="text-xs text-gray-600 dark:text-gray-400">{user.job}</p>

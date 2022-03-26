@@ -7,7 +7,11 @@ const Categories = lazy(() => import('../pages/Categories'))
 const Charts = lazy(() => import('../pages/Charts'))
 const Messages = lazy(() => import('../pages/Messages'))
 const User = lazy(() => import('../pages/User'))
+const UserActivites = lazy(() => import('../pages/UserActivites'))
+
 const Tables = lazy(() => import('../pages/Tables'))
+const Suppliers = lazy(() => import('../pages/Suppliers'))
+
 const Page404 = lazy(() => import('../pages/404'))
 const Blank = lazy(() => import('../pages/Blank'))
 
@@ -46,9 +50,14 @@ const routes = [
     path: '/user',
     component: User,
   },
+  
   {
-    path: '/tables',
-    component: Tables,
+    path: '/useractivites',
+    component: UserActivites,
+  },
+  {
+    path: '/suppliers',
+    component: Suppliers,
   },
   {
     path: '/404',

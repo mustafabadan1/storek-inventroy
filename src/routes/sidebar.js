@@ -26,20 +26,33 @@ const routes = [
     icon: 'ChartsIcon',
     name: 'Charts',
   },
-  {
-    path: '/app/messages',
-    icon: 'ButtonsIcon',
-    name: 'Messages',
-  },
+ 
   {
     path: '/app/user',
     icon: 'ModalsIcon',
     name: 'User',
   },
   {
-    path: '/app/tables',
+    path: '/app/useractivites',
+    icon: 'ModalsIcon',
+    name: 'User Activites',
+  },
+   {
+    path: '/app/notification',
+    icon: 'ButtonsIcon',
+    name: 'Notification',
+  },
+
+  {
+    path: '/app/messages',
+    icon: 'ButtonsIcon',
+    name: 'Messages',
+  },
+
+  {
+    path: '/app/suppliers',
     icon: 'TablesIcon',
-    name: 'User ctivites',
+    name: 'Suppliers',
   },
   
 ]

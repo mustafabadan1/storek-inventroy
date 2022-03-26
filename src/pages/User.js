@@ -5,22 +5,19 @@ import CTA from '../components/CTA'
 import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from '@windmill/react-ui'
 
 function User() {
-  const [isModalOpen, setIsModalOpen] = useState(false)
-
-  function openModal() {
-    setIsModalOpen(true)
-  }
-
-  function closeModal() {
-    setIsModalOpen(false)
-  }
+  
 
   return (
     <>
-      <PageTitle>Users</PageTitle>
+      <PageTitle>User</PageTitle>
       {/* <CTA /> */}
+      
 
       <h2>this is User</h2>
+      <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
+
+        
+      </div>
        
     </>
   )
