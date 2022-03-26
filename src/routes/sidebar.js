@@ -12,62 +12,49 @@ const routes = [
     name: 'Dashboard', // name that appear in Sidebar
   },
   {
-    path: '/app/forms',
+    path: '/app/Inventroy',
     icon: 'FormsIcon',
     name: 'Inventroy',
   },
   {
-    path: '/app/cards',
+    path: '/app/Categories',
     icon: 'CardsIcon',
-    name: 'Cards',
+    name: 'Categories',
   },
   {
     path: '/app/charts',
     icon: 'ChartsIcon',
     name: 'Charts',
   },
+ 
   {
-    path: '/app/buttons',
-    icon: 'ButtonsIcon',
-    name: 'Buttons',
+    path: '/app/user',
+    icon: 'UserIcon',
+    name: 'User',
   },
   {
-    path: '/app/modals',
+    path: '/app/useractivites',
     icon: 'ModalsIcon',
-    name: 'Modals',
+    name: 'User Activites',
   },
+   {
+    path: '/app/notification',
+    icon: 'BellbIcon',
+    name: 'Notification',
+  },
+
   {
-    path: '/app/tables',
+    path: '/app/messages',
+    icon: 'MessageIcon',
+    name: 'Messages',
+  },
+
+  {
+    path: '/app/suppliers',
     icon: 'TablesIcon',
-    name: 'Tables',
+    name: 'Suppliers',
   },
-  {
-    icon: 'PagesIcon',
-    name: 'Pages',
-    routes: [
-      // submenu
-      {
-        path: '/login',
-        name: 'Login',
-      },
-      {
-        path: '/create-account',
-        name: 'Create account',
-      },
-      {
-        path: '/forgot-password',
-        name: 'Forgot password',
-      },
-      {
-        path: '/app/404',
-        name: '404',
-      },
-      {
-        path: '/app/blank',
-        name: 'Blank',
-      },
-    ],
-  },
+  
 ]
 
 export default routes

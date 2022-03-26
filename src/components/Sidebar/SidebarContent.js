@@ -25,12 +25,12 @@ function SidebarContent() {
               <NavLink
                 exact
                 to={route.path}
-                className="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                activeClassName="text-gray-800 dark:text-gray-100"
+                className="inline-flex items-center w-full text-sm font-medium transition-colors duration-150  dark:hover:text-gray-200"
+                activeClassName=" px-4 py-2 text-white bg-blue-500 rounded-md dark:bg-blue-700 dark:text-gray-200"
               >
                 <Route path={route.path} exact={route.exact}>
                   <span
-                    className="absolute inset-y-0 left-0 w-1 bg-purple-600 rounded-tr-lg rounded-br-lg"
+                    className="absolute inset-y-0 left-0 w-1 bg-blue-600 rounded-tr-lg rounded-br-lg"
                     aria-hidden="true"
                   ></span>
                 </Route>
@@ -42,10 +42,10 @@ function SidebarContent() {
         )}
       </ul>
       <div className="px-6 my-6">
-        <Button>
-          Create account
+        <Button className=' bg-blue-500'>
+          log out
           <span className="ml-2" aria-hidden="true">
-            +
+            -
           </span>
         </Button>
       </div>
