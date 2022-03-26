@@ -69,8 +69,8 @@ function UserActivites() {
                         </div>
                         <div className="w-3/12 flex flex-col items-end justify-between">
                             <p className="text-xs text-gray-600 dark:text-gray-400">9am - 10am</p>
-                            <div className="dark:bg-teal-300 bg-teal-400 h-6 w-20 mb-4 md:mb-0 rounded-md flex items-center justify-center">
-                                <span className="text-xs text-gray-100 dark:text-teal-600 font-normal">Compleated</span>
+                            <div className="dark:bg-teal-300 bg-teal-100 h-6 w-20 mb-4 md:mb-0 rounded-md flex items-center justify-center">
+                                <span className="text-xs text-teal-800 dark:text-teal-600 font-normal">Compleated</span>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ function UserActivites() {
                         <div className="w-3/12 flex flex-col items-end justify-between">
                             <p className="text-xs text-gray-600 dark:text-gray-400">9am - 10am</p>
                             <div className="bg-yellow-200 h-6 w-20 mb-4 md:mb-0 rounded-md flex items-center justify-center">
-                                <span className="text-xs text-yellow-600 font-normal">Personal</span>
+                                <span className="text-xs text-yellow-600 font-normal">Undo</span>
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@ function UserActivites() {
                         <div className="w-3/12 flex flex-col items-end justify-between">
                             <p className="text-xs text-gray-600 dark:text-gray-400">9am - 10am</p>
                             <div className="bg-gray-200 h-6 w-20 mb-4 md:mb-0 rounded-md flex items-center justify-center">
-                                <span className="text-xs text-gray-600 dark:text-gray-400 font-normal">Meeting</span>
+                                <span className="text-xs text-gray-600 dark:text-gray-400 font-normal">Pending</span>
                             </div>
                         </div>
                     </div>
