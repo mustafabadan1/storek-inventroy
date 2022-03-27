@@ -70,7 +70,6 @@ function Login() {
                 </Link>
               </p>
             </div>
-            
           </main>
         </div>
       </div>

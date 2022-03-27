@@ -32,7 +32,7 @@ const routes = [
   },
   {
     path: '/Inventroy',
-    component: Inventroy,
+    component: Tables,
   },
   {
     path: '/Categories',

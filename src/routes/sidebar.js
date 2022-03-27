@@ -16,11 +16,11 @@ const routes = [
     icon: 'FormsIcon',
     name: 'Inventroy',
   },
-  {
-    path: '/app/Categories',
-    icon: 'CardsIcon',
-    name: 'Categories',
-  },
+  // {
+  //   path: '/app/Categories',
+  //   icon: 'CardsIcon',
+  //   name: 'Categories',
+  // },
   {
     path: '/app/charts',
     icon: 'ChartsIcon',
@@ -30,7 +30,7 @@ const routes = [
   {
     path: '/app/user',
     icon: 'UserIcon',
-    name: 'User',
+    name: 'Users',
   },
   {
     path: '/app/useractivites',

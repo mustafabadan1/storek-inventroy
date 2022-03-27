@@ -53,7 +53,7 @@ function Header() {
             />
           </div>
         </div>
-        <ul className="flex items-center flex-shrink-0 space-x-6 mr-16">
+        <ul className="flex items-center flex-shrink-0 space-x-6 mr-9">
           {/* <!-- Theme toggler --> */}
           <li className="flex">
             <button
@@ -97,9 +97,7 @@ function Header() {
                 <span>Sales</span>
                 <Badge type="danger">2</Badge>
               </DropdownItem>
-              <DropdownItem onClick={() => alert('Alerts!')}>
-                <span>Alerts</span>
-              </DropdownItem>
+             
             </Dropdown>
           </li>
           {/* <!-- Profile menu --> */}

@@ -3,6 +3,7 @@ import React from 'react'
 import ChartCard from '../components/Chart/ChartCard'
 import { Doughnut, Line, Bar } from 'react-chartjs-2'
 import ChartLegend from '../components/Chart/ChartLegend'
+
 import PageTitle from '../components/Typography/PageTitle'
 import {
   doughnutOptions,
@@ -12,11 +13,13 @@ import {
   lineLegends,
   barLegends,
 } from '../utils/demo/chartsData'
+import ChartsCards from '../components/Cards/ChartsCards'
 
 function Charts() {
   return (
     <>
       <PageTitle>Charts</PageTitle>
+      <ChartsCards/>
 
       <div className="grid gap-6 mb-8 md:grid-cols-2">
         <ChartCard title="Doughnut">

@@ -28,6 +28,7 @@ import {
   doughnutLegends,
   lineLegends,
 } from '../utils/demo/chartsData'
+import ChartsCards from '../components/Cards/ChartsCards'
 
 function Dashboard() {
   const [page, setPage] = useState(1)
@@ -52,7 +53,7 @@ function Dashboard() {
     <>
       <PageTitle>Dashboard</PageTitle>
 
-      
+   
 
       {/* <!-- Cards --> */}
       <div className="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
@@ -93,7 +94,7 @@ function Dashboard() {
         </InfoCard>
       </div>
 
-    
+      
 
       <PageTitle>Charts</PageTitle>
       <div className="grid gap-6 mb-8 md:grid-cols-2">
@@ -107,6 +108,8 @@ function Dashboard() {
           <ChartLegend legends={lineLegends} />
         </ChartCard>
       </div>
+
+      <ChartsCards/>
     </>
   )
 }
