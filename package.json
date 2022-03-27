@@ -46,26 +46,15 @@
     "release-it": "13.6.4",
     "tailwindcss": "1.4.6"
   },
-  "keywords": [
-    "windmill",
-    "dashboard",
-    "admin",
-    "tailwind",
-    "react"
-  ],
+
   "release-it": {
     "github": {
       "release": true
     },
     "npm": {
       "publish": false
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular",
-        "infile": "CHANGELOG.md"
-      }
     }
+ 
   },
   "config": {
     "commitizen": {
